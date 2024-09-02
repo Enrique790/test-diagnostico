@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: #047857;
+    color: #e7e5e4;
+    font-weight: bold;
+    transition: ease-in-out 1s;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background: #10b981 ;
+}
+
+.bg{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 8px;
+}
